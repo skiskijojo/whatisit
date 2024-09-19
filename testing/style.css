@@ -1,0 +1,65 @@
+body {
+    font-family: Arial,  sans-serif; /* keluarga font */
+    font-size: 11px; /* Ukuran font utama pada tag <p></p> */
+    background-color: #ffffff; /* Warna latar belakang laman web */
+    color: #016f8b; /* Warna teks */ 
+}
+h1 {
+    color: #ade5f5; /* Warna tajuk (header)*/
+    font-size: 34px; /* Ukuran font tajuk (header) */
+    font-family: Georgia, serif; /* Keluarga font yang digunakan di tajuk (header) */
+}
+h2 {
+    color: #4cd8ff; /* Warna tajuk (header)*/
+    font-size: 28px; /* Ukuran font tajuk (header) */
+    font-family: Georgia, serif; /* Keluarga font yang digunakan di tajuk (header) */
+}
+h3 {
+    color: #00c8ff; /* Warna tajuk (header)*/
+    font-size: 20px; /* Ukuran font tajuk (header) */
+    font-family: Georgia, serif; /* Keluarga font yang digunakan di tajuk (header) */
+}
+img {
+    width: 50%;
+}
+
+@keyframes color-change {
+    0% {
+      color: blue;
+      font-size: 34px;
+    }
+  
+    50% {
+      color: rgb(0, 153, 255);
+      font-size: 31px;
+    }
+  
+    100% {
+      color: blue;
+      font-size: 34px;
+    }
+}
+
+@keyframes yeahh-boiii {
+    0% {
+      color: #016f8b;
+      font-size: 11px;
+    }
+  
+    50% {
+      color: #006078a7;
+      font-size: 11px;
+    }
+  
+    100% {
+      color: #016f8b;
+      font-size: 11px;
+    }
+}
+
+h1 {
+    animation: color-change 3s infinite;
+}
+body {
+    animation: yeahh-boiii 3s infinite;
+}
